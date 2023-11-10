@@ -1,0 +1,88 @@
+/* .layout-header-grid */
+.layout-header-grid {
+  padding: 20px 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.layout-header-icon {
+  background-color: transparent;
+  border: none;
+}
+.layout-header-logo {
+  width: 261px;
+  margin-left: 100px;
+}
+.layout-header-std__search-container {
+  width: 40%;
+  text-align: end;
+}
+.layout-header-links {
+  width: 40%;
+  text-align: end;
+}
+.layout-header-links a {
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.layout-header-link-shop-cart {
+  margin-left: 20px;
+}
+/*  */
+.login-title h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.form-wrap input,
+.form-wrap select {
+  width: 100%;
+  border: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #000;
+  padding-top: 26px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  border-radius: 0;
+}
+.form-wrap input:focus-visible {
+  outline: none;
+}
+.form-wrap input::placeholder {
+  text-transform: uppercase;
+}
+.form-wrap button {
+  margin-top: 26px;
+  border: 1px solid #000;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.logon-view__section-info {
+  margin-left: 25%;
+}
+/* phone-verification */
+.complete-phone-verification__link {
+  margin-top: 24px;
+}
+.complete-phone-verification__link a {
+  text-decoration: none;
+}
+/* billing-address */
+.billing-title {
+}
+.billing-title h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.billing-title p {
+  font-size: 12px;
+}
